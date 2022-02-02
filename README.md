@@ -17,5 +17,7 @@ Quickstart documentation for Project Mayerhofen
   - and example is at create_pdf.sh 
 - you can also add images/media content as needed in those subdirectories
 
+- The resulting document will be in the [build] subdirectory
+
 # Feedback
 - feel free to provide feedback, ask questions or even submit pull request
