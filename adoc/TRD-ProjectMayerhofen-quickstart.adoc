@@ -508,7 +508,6 @@ As the deployment need a Hub/Spoke network setup, please set the following
 ----
 network_topology = "hub_spoke"
 vnet_hub_create = true
-resource_group_hub_create = false
 bastion_enabled = true
 spoke_name = "sap-1"
 ----
@@ -701,7 +700,6 @@ cluster_ssh_pub = "salt://sshkeys/cluster.id_rsa.pub"
 cluster_ssh_key = "salt://sshkeys/cluster.id_rsa"
 network_topology = "hub_spoke"
 vnet_hub_create = true
-resource_group_hub_create = false
 bastion_enabled = true
 spoke_name = "sap-1"
 ha_sap_deployment_repo = "https://download.opensuse.org/repositories/network:/ha-clustering:/sap-deployments:/devel/"
