@@ -45,7 +45,7 @@ It is the same workflow as with the normal SUSE SAP automation project, you only
 
 This document will walk you through a simple deployment of a HA SAP Landscape using the SUSE Automation Project for SAP Solutions Project and Fortinet's secure fabric on {cloud}. The project could be quite extensive customized, but we want to showcase here a simple, easy to start-with example.
 
-The project uses Terraform to build the {cloud} infrastructure, where the Fortinet part get deployed in a HUB and the SAP Landscape on SUSE in a SPOKE.
+The project uses Terraform to build the {cloud} infrastructure, where the Fortinet part gets deployed in a HUB and the SAP Landscape on SUSE in a SPOKE.
 The HUB virtual network is the connection point to your on-premises networks and central location for services used by SPOKE virtual networks. The SPOKE virtual networks are peering  with the hub and be used to isolate workloads in there own virtual network.
 
 The second part is using Salt to deploy and configure the operating system ({sles4sap}), SAP software (SAP HANA and SAP Netweaver), and if chosen a SUSE Linux Enterprise High Availability (HA) cluster for the SAP applications.
@@ -382,7 +382,7 @@ $ cd ~/suse-sap-automation/ha-sap-terraform-deployments/gcp
 endif::[]
 
 
-A Terraform example template is provided. For a demo environment consisting of a simple SAP Szenario, only a handful of parameters will need to be changed, as most of the possible values come with a useful default as a good and save starting point.
+A Terraform example template is provided. For a demo environment consisting of a simple SAP Scenario, only a handful of parameters will need to be changed, as most of the possible values come with a useful default as a good and save starting point.
 
 
 Copy the Terraform example file to `terraform.tfvars`:
@@ -540,7 +540,7 @@ endif::[]
 
 ifeval::[ "{cloud}" == "GCP" ]
 // Question to Ab:  Why do you disable the bastion?
-The Jumphost server (Bastion Host Server) is enabled by default, and provide the public IP adress to the database.
+The Jumphost server (Bastion Host Server) is enabled by default, and provide the public IP address to the database.
 Otherwise the two HANA servers will get a public ip.
 
 Disable the Bastion Host Server creation parameter `bastion_enabled`:
@@ -665,7 +665,7 @@ netweaver_sapexe_folder   =  "your_download_basket"
 netweaver_additional_dvds = ["your_export_folder", "your_hdbclient_folder"]
 ----
 
-In oder to additional deploy the fortinet services, remember we need to choose a HUB-SPOKE network scenario and enable the flag
+In order to additional deploy the fortinet services, remember we need to choose a HUB-SPOKE network scenario and enable the flag
 ----
 fortinet_enabled=true
 ----
