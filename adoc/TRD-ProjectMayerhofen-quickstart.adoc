@@ -108,7 +108,7 @@ Further Information on the configuration can be found within the the following G
 ifeval::[ "{cloud}" == "Azure" ]
 Start an Azure Cloud Shell simply from the top menu within Azure Portal. It is the small icon with the commandline prompt.
 
-Whne Cloud Shell is started the first time you can select between "Bash" and "Powershell". Please use "Bash"
+When Cloud Shell is started the first time you can select between "Bash" and "Powershell". Please use "Bash"
 
 The Cloud Shell is a managed service by Microsoft, and comes with the most popular command-line tools and language support you need.
 The Cloud Shell also securely authenticates automatically for instant access to your resources through the Azure CLI or Azure PowerShell cmdlets.
