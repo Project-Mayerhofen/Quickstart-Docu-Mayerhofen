@@ -40,7 +40,7 @@ Some key values of the solution are:
 . Combine SUSE SAP automation with an automated Fortinet Security Fabric provisioning 
 . Provides security, optimized connectivity and faster rollout of SAP landscapes
 
-Adding the Fortinet deployment same workflow as with the normal SUSE SAP automation project, you only need to enable “with fortinet” to benefit from the additional installation of the Fortinet Fabric.
+Adding the Fortinet deployment, it is the same workflow as with the normal SUSE SAP automation project, you only need to enable “with fortinet” to benefit from the additional installation of the Fortinet Fabric.
 
 
 This document will walk you through a simple deployment of a HA SAP Landscape using the SUSE Automation Project for SAP Solutions Project and Fortinet's secure fabric on {cloud}. The project could be quite extensively customized, show here is a simple easy to start-with example.
