@@ -1,4 +1,4 @@
-# Local .terraform directories
+ Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
@@ -34,5 +34,8 @@ build/.images
 build/.profiled
 build/.tmp
 build/.adoc
-!*.pdf
+*.pdf
+*.log
 .vscode
+build/TRD-ProjectMayerhofen-quickstart-azure/TRD-ProjectMayerhofen-quickstart-azure_color_en.pdf
+build/TRD-ProjectMayerhofen-quickstart-azure/log/make_pdf.log
