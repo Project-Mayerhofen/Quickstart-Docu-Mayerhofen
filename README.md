@@ -1,12 +1,12 @@
 # Quickstart-Docu-Mayerhofen
 Quickstart documentation for Project Mayerhofen
 
-NOTE - the official "Getting started" is now handled at the SUSE Technical Reference Documentation
+**NOTE - the official "Getting started" is now handled at the SUSE Technical Reference Documentation**
 
        Document:
        https://documentation.suse.com/trd/linux/single-html/linux_gs_slessap_fortinet_azure_landscape-automation/
 
-Source:
+       Source:
        https://github.com/SUSE/technical-reference-documentation/tree/main/linux/start/fortinet 
 
 # Assumption(s)
